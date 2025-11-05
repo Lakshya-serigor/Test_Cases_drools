@@ -1,0 +1,211 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-3131",
+      "primaryFirstName": "Alex",
+      "primaryMiddleInitial": "K",
+      "primaryLastName": "Turner",
+      "primaryDob": "1989-05-12",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "555-66-4141",
+      "spouseFirstName": "Devon",
+      "spouseMiddleInitial": "L",
+      "spouseLastName": "Turner",
+      "spouseDob": "1990-09-03",
+      "spouseHealthCareCoverage": true,
+      "email": "alex.turner@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "1800 West St",
+      "mailingAddressLine2": "Unit 9C",
+      "mailingCity": "Annapolis",
+      "mailingState": "MD",
+      "mailingZipCode": "21401",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "1800 West St",
+      "marylandAddressLine2": "Unit 9C",
+      "marylandCity": "Annapolis",
+      "marylandZipCode": "21401",
+      "marylandCounty": "Anne Arundel County",
+      "politicalSubdivision": "Annapolis",
+      "politicalSubdivisionCode": "0401"
+    },
+    "residency": {
+      "partYearResident": true,
+      "residenceDateFrom": "2024-02-15",
+      "residenceDateTo": "2024-12-31",
+      "otherStateOfResidence": "NJ",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "2",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": true,
+      "totalAExemptionsCount": 2,
+      "totalAExemptionsAmount": 6400.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 6400.0,
+      "totalExemptionsCount": 4,
+      "totalExemptionsAmount": 12800.0
+    },
+    "income": {
+      "line1FederalAgi": 142300.0,
+      "line1aWagesSalariesTips": 120000.0,
+      "line1bEarnedIncome": 120000.0,
+      "line1cCapitalGainLoss": 5200.0,
+      "line1dTaxablePensions": 9000.0,
+      "line1eInvestmentIncomeOver11000": true
+    },
+    "additions": {
+      "line2TaxExemptInterest": 350.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 400.0,
+      "line5CodeLetters": "AG",
+      "line6TotalAdditions": 750.0,
+      "line7TotalFederalAgiAndAdditions": 143050.0
+    },
+    "deduction": {
+      "deductionMethod": "ITEMIZED",
+      "line17DeductionAmount": 14800.0,
+      "line17aTotalFederalItemizedDeductions": 24800.0,
+      "line17bStateLocalIncomeTaxes": 10000.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 1600.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 1600.0,
+      "line16MarylandAgi": 141450.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 126650.0,
+      "line19ExemptionAmount": 12800.0,
+      "line20TaxableNetIncome": 113850.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 5355.375,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 5355.375
+    },
+    "localTax": {
+      "localTaxRate": 0.0,
+      "line28LocalTax": 3116.685,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 3116.685
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 8472.06
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 50.0,
+      "line36DevelopmentalDisabilitiesContribution": 25.0,
+      "line37MarylandCancerFundContribution": 25.0,
+      "line38FairCampaignFinancingContribution": 10.0,
+      "line39TotalTaxAndContributions": 8582.06
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 10800.0,
+      "line41EstimatedTaxPayments": 3000.0,
+      "line41AmountAppliedFrom2022": 300.0,
+      "line41PaymentWithExtension": 200.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 13800.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 5217.94,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 5217.94,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "410-555-0173",
+      "homePhone": "410-555-0193",
+      "codeNumbers": ["03", "12"]
+    },
+    "preparer": {
+      "name": "Severn Tax & Accounting LLC",
+      "signature": "Jordan Park",
+      "ptin": "P112233",
+      "firmName": "Severn Tax & Accounting LLC",
+      "address": "1000 Riva Rd",
+      "cityStateZip": "Annapolis, MD 21401",
+      "phone": "410-555-7701"
+    },
+    "signatures": {
+      "primarySignature": "Alex K Turner",
+      "primarySignatureDate": "2025-04-17",
+      "spouseSignature": "Devon L Turner",
+      "spouseSignatureDate": "2025-04-17"
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": true,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "055003201",
+      "line51cAccountNumber": "778899001122",
+      "line51dNameOnAccount": "Alex K Turner & Devon L Turner"
+    }
+  },
+  "validationErrors": []
+}

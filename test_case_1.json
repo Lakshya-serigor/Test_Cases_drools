@@ -1,0 +1,212 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2023,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "123-45-6789",
+      "primaryFirstName": "Alex",
+      "primaryMiddleInitial": "Q",
+      "primaryLastName": "Smith",
+      "primaryDob": "1985-06-15",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "",
+      "spouseFirstName": "",
+      "spouseMiddleInitial": "",
+      "spouseLastName": "",
+      "spouseDob": "",
+      "spouseHealthCareCoverage": true,
+      "email": "alex@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "101 Main St",
+      "mailingAddressLine2": "Apt 5",
+      "mailingCity": "Baltimore",
+      "mailingState": "MD",
+      "mailingZipCode": "21201",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "101 Main St",
+      "marylandAddressLine2": "Apt 5",
+      "marylandCity": "Baltimore",
+      "marylandZipCode": "21201",
+      "marylandCounty": "Baltimore City",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": false,
+      "residenceDateFrom": "",
+      "residenceDateTo": "",
+      "otherStateOfResidence": "",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "Single",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 1,
+      "totalAExemptionsAmount": 0.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 1,
+      "totalCExemptionsAmount": 0.0,
+      "totalExemptionsCount": 2,
+      "totalExemptionsAmount": 3000.0
+    },
+    "income": {
+      "line1FederalAgi": 90000.00,
+      "line1aWagesSalariesTips": 75000.00,
+      "line1bEarnedIncome": 75000.00,
+      "line1cCapitalGainLoss": 5000.00,
+      "line1dTaxablePensions": 10000.00,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 1000.00,
+      "line3StateRetirementPickup": 2000.00,
+      "line4LumpSumDistributions": 500.00,
+      "line5OtherAdditions": 300.00,
+      "line5CodeLetters": "AA",
+      "line6TotalAdditions": 0.0,
+      "line7TotalFederalAgiAndAdditions": 0.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 200.00,
+      "line9ChildDependentCareExpenses": 0.00,
+      "line10aPensionExclusionYourself": 0.00,
+      "line10aPensionExclusionSpouse": 0.00,
+      "line10aPensionExclusionTotal": 0.00,
+      "line10bRangerPensionYourself": 0.00,
+      "line10bRangerPensionSpouse": 0.00,
+      "line10bRangerPensionTotal": 0.00,
+      "line11TaxableSocialSecurityRrBenefits": 0.00,
+      "line12IncomeReceivedDuringNonresidence": 0.00,
+      "line13SubtractionsFrom502SU": 1000.00,
+      "line14TwoIncomeSubtraction": 0.00,
+      "line15TotalSubtractions": 0.0,
+      "line16MarylandAgi": 0.0
+    },
+    "deduction": {
+      "deductionMethod": "Itemized",
+      "line17DeductionAmount": 10000.00,
+      "line17aTotalFederalItemizedDeductions": 15000.00,
+      "line17bStateLocalIncomeTaxes": 5000.00
+    },
+    "taxableIncome": {
+      "line18NetIncome": 0.0,
+      "line19ExemptionAmount": 3000.00,
+      "line20TaxableNetIncome": 0.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 4000.00,
+      "line21aRecapturedCredit": 0.00,
+      "line22EarnedIncomeCredit": 0.00,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.00,
+      "line24OtherIncomeTaxCredits": 200.00,
+      "line25BusinessTaxCredits": 0.00,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 0.0
+    },
+    "localTax": {
+      "localTaxRate": 0.032,
+      "line28LocalTax": 0.0,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 100.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 0.0
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 0.0
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 50.00,
+      "line36DevelopmentalDisabilitiesContribution": 0.00,
+      "line37MarylandCancerFundContribution": 0.00,
+      "line38FairCampaignFinancingContribution": 25.00,
+      "line39TotalTaxAndContributions": 0.0
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 5000.00,
+      "line41EstimatedTaxPayments": 500.00,
+      "line41AmountAppliedFrom2022": 0.00,
+      "line41PaymentWithExtension": 0.00,
+      "line41FormMW506NRS": 0.00,
+      "line42RefundableEarnedIncomeCredit": 0.00,
+      "line43RefundableIncomeTaxCredits": 0.00,
+      "line44TotalPaymentsAndCredits": 0.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": false,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "",
+      "line51bRoutingNumber": "",
+      "line51cAccountNumber": "",
+      "line51dNameOnAccount": ""
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": false,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": false,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "410-555-0000",
+      "homePhone": "410-555-9999",
+      "codeNumbers": []
+    },
+    "preparer": {
+      "name": "Jordan CPA",
+      "signature": "Jordan",
+      "ptin": "P123456",
+      "firmName": "JS Advisors",
+      "address": "10 Pratt St",
+      "cityStateZip": "Baltimore, MD 21202",
+      "phone": "410-555-1212"
+    },
+    "signatures": {
+      "primarySignature": "Alex Smith",
+      "primarySignatureDate": "2024-04-12",
+      "spouseSignature": "",
+      "spouseSignatureDate": ""
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": false,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    }
+  }
+}

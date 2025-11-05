@@ -1,0 +1,212 @@
+{
+  "form": {
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": true,
+      "totalAExemptionsCount": 2,
+      "totalAExemptionsAmount": 6400.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 6400.0,
+      "totalExemptionsCount": 4,
+      "totalExemptionsAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "2",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "income": {
+      "line1FederalAgi": 210000.0,
+      "line1aWagesSalariesTips": 150000.0,
+      "line1bEarnedIncome": 150000.0,
+      "line1cCapitalGainLoss": 20000.0,
+      "line1dTaxablePensions": 40000.0,
+      "line1eInvestmentIncomeOver11000": true
+    },
+    "additions": {
+      "line2TaxExemptInterest": 200.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 300.0,
+      "line5CodeLetters": "AB",
+      "line6TotalAdditions": 500.0,
+      "line7TotalFederalAgiAndAdditions": 210500.0
+    },
+    "deduction": {
+      "deductionMethod": "STANDARD",
+      "line17DeductionAmount": 5450.0,
+      "line17aTotalFederalItemizedDeductions": 0.0,
+      "line17bStateLocalIncomeTaxes": 0.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 2000.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 2000.0,
+      "line16MarylandAgi": 208500.0
+    },
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "2024-01-01",
+      "fiscalYearEnding": "2024-12-31"
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-7777",
+      "primaryFirstName": "Taylor",
+      "primaryMiddleInitial": "R",
+      "primaryLastName": "Morgan",
+      "primaryDob": "1984-05-22",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "555-66-8888",
+      "spouseFirstName": "Alex",
+      "spouseMiddleInitial": "J",
+      "spouseLastName": "Morgan",
+      "spouseDob": "1985-03-14",
+      "spouseHealthCareCoverage": true,
+      "email": "taylor.morgan@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "121 West Patrick St",
+      "mailingAddressLine2": "",
+      "mailingCity": "Frederick",
+      "mailingState": "MD",
+      "mailingZipCode": "21701",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "121 West Patrick St",
+      "marylandAddressLine2": "",
+      "marylandCity": "Frederick",
+      "marylandZipCode": "21701",
+      "marylandCounty": "Frederick County",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": false,
+      "residenceDateFrom": "",
+      "residenceDateTo": "",
+      "otherStateOfResidence": "",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 203050.0,
+      "line19ExemptionAmount": 0.0,
+      "line20TaxableNetIncome": 203050.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 9795.125,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 9795.125
+    },
+    "localTax": {
+      "localTaxRate": 0.0,
+      "line28LocalTax": 6010.280000000001,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 6010.280000000001
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 15805.405
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 0.0,
+      "line36DevelopmentalDisabilitiesContribution": 0.0,
+      "line37MarylandCancerFundContribution": 0.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 15805.41
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 10500.0,
+      "line41EstimatedTaxPayments": 3000.0,
+      "line41AmountAppliedFrom2022": 300.0,
+      "line41PaymentWithExtension": 100.0,
+      "line41FormMW506NRS": 100.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 13500.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 2305.4050000000007,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 2305.4050000000007
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "301-555-0142",
+      "homePhone": "301-555-0173",
+      "codeNumbers": ["07", "12"]
+    },
+    "preparer": {
+      "name": "River City Tax LLC",
+      "signature": "Jordan Blake",
+      "ptin": "P987654",
+      "firmName": "River City Tax LLC",
+      "address": "200 Monocacy Blvd",
+      "cityStateZip": "Frederick, MD 21704",
+      "phone": "301-555-2222"
+    },
+    "signatures": {
+      "primarySignature": "Taylor R Morgan",
+      "primarySignatureDate": "2025-04-10",
+      "spouseSignature": "Alex J Morgan",
+      "spouseSignatureDate": "2025-04-10"
+    },
+    "attachments": {
+      "w2FormsAttached": false,
+      "form502BAttached": false,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "055003201",
+      "line51cAccountNumber": "001122334455",
+      "line51dNameOnAccount": "Taylor R Morgan & Alex J Morgan"
+    }
+  }
+}

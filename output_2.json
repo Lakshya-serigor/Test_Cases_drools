@@ -1,0 +1,213 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2023,
+      "fiscalYearBeginning": "2023-01-01",
+      "fiscalYearEnding": "2023-12-31"
+    },
+    "taxpayerInformation": {
+      "primarySsn": "321-54-9876",
+      "primaryFirstName": "Riya",
+      "primaryMiddleInitial": "M",
+      "primaryLastName": "Patel",
+      "primaryDob": "1987-02-10",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "654-32-1987",
+      "spouseFirstName": "Arjun",
+      "spouseMiddleInitial": "K",
+      "spouseLastName": "Patel",
+      "spouseDob": "1986-11-22",
+      "spouseHealthCareCoverage": true,
+      "email": "riya.patel@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "2200 Elm Street",
+      "mailingAddressLine2": "Unit 12B",
+      "mailingCity": "Rockville",
+      "mailingState": "MD",
+      "mailingZipCode": "20850",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "2200 Elm Street",
+      "marylandAddressLine2": "Unit 12B",
+      "marylandCity": "Rockville",
+      "marylandZipCode": "20850",
+      "marylandCounty": "Montgomery County",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": true,
+      "residenceDateFrom": "2023-04-01",
+      "residenceDateTo": "2023-12-31",
+      "otherStateOfResidence": "VA",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "2",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": true,
+      "totalAExemptionsCount": 2,
+      "totalAExemptionsAmount": 6400.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 6400.0,
+      "totalExemptionsCount": 4,
+      "totalExemptionsAmount": 12800.0
+    },
+    "income": {
+      "line1FederalAgi": 60000.0,
+      "line1aWagesSalariesTips": 52000.0,
+      "line1bEarnedIncome": 52000.0,
+      "line1cCapitalGainLoss": 2000.0,
+      "line1dTaxablePensions": 6000.0,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 200.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 0.0,
+      "line5CodeLetters": "",
+      "line6TotalAdditions": 200.0,
+      "line7TotalFederalAgiAndAdditions": 60200.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 100.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 500.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 600.0,
+      "line16MarylandAgi": 59600.0
+    },
+    "deduction": {
+      "deductionMethod": "STANDARD",
+      "line17DeductionAmount": 5450.0,
+      "line17aTotalFederalItemizedDeductions": 0.0,
+      "line17bStateLocalIncomeTaxes": 0.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 54150.0,
+      "line19ExemptionAmount": 12800.0,
+      "line20TaxableNetIncome": 41350.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 1964.125,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 1000.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 5.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 1005.0,
+      "line27MarylandTaxAfterCredits": 959.125
+    },
+    "localTax": {
+      "localTaxRate": 0.032,
+      "line28LocalTax": 1323.2,
+      "line29LocalEarnedIncomeCredit": 1116.45,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 1116.45,
+      "line33LocalTaxAfterCredits": 206.75
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 1165.875
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 20.0,
+      "line36DevelopmentalDisabilitiesContribution": 10.0,
+      "line37MarylandCancerFundContribution": 0.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 1195.875
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 5000.0,
+      "line41EstimatedTaxPayments": 200.0,
+      "line41AmountAppliedFrom2022": 0.0,
+      "line41PaymentWithExtension": 0.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 5200.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 4004.125,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 4004.125,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "052000113",
+      "line51cAccountNumber": "001122334455",
+      "line51dNameOnAccount": "Riya M Patel"
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "240-555-0162",
+      "homePhone": "240-555-0199",
+      "codeNumbers": ["12", "34"]
+    },
+    "preparer": {
+      "name": "A. Kumar, CPA",
+      "signature": "A. Kumar",
+      "ptin": "P777777",
+      "firmName": "AK Tax Partners",
+      "address": "111 Market St",
+      "cityStateZip": "Rockville, MD 20850",
+      "phone": "240-555-1000"
+    },
+    "signatures": {
+      "primarySignature": "Riya Patel",
+      "primarySignatureDate": "2024-04-10",
+      "spouseSignature": "Arjun Patel",
+      "spouseSignatureDate": "2024-04-10"
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": false,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    }
+  },
+  "validationErrors": []
+}

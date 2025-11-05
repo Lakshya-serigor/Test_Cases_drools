@@ -1,0 +1,224 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-5555",
+      "primaryFirstName": "Noah",
+      "primaryMiddleInitial": "J",
+      "primaryLastName": "Reed",
+      "primaryDob": "1992-02-11",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "555-66-6666",
+      "spouseFirstName": "Quinn",
+      "spouseMiddleInitial": "A",
+      "spouseLastName": "Reed",
+      "spouseDob": "1993-07-08",
+      "spouseHealthCareCoverage": true,
+      "email": "noah.reed@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "8450 Baltimore Ave",
+      "mailingAddressLine2": "Apt 12B",
+      "mailingCity": "College Park",
+      "mailingState": "MD",
+      "mailingZipCode": "20740",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "8450 Baltimore Ave",
+      "marylandAddressLine2": "Apt 12B",
+      "marylandCity": "College Park",
+      "marylandZipCode": "20740",
+      "marylandCounty": "Prince George's County",
+      "politicalSubdivision": "College Park",
+      "politicalSubdivisionCode": "1610"
+    },
+    "residency": {
+      "partYearResident": true,
+      "residenceDateFrom": "2024-03-01",
+      "residenceDateTo": "2024-12-31",
+      "otherStateOfResidence": "VA",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "5",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 1,
+      "totalAExemptionsAmount": 3200.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 1,
+      "totalCExemptionsAmount": 3200.0,
+      "totalExemptionsCount": 2,
+      "totalExemptionsAmount": 6400.0,
+      "dependents": [
+        {
+          "firstName": "Riley",
+          "middleInitial": "",
+          "lastName": "Reed",
+          "ssn": "555-77-8888",
+          "dob": "2018-05-03",
+          "relationship": "Child",
+          "monthsLivedWithYou": 12
+        }
+      ]
+    },
+    "income": {
+      "line1FederalAgi": 112500.0,
+      "line1aWagesSalariesTips": 92000.0,
+      "line1bEarnedIncome": 92000.0,
+      "line1cCapitalGainLoss": 4500.0,
+      "line1dTaxablePensions": 10000.0,
+      "line1eInvestmentIncomeOver11000": true
+    },
+    "additions": {
+      "line2TaxExemptInterest": 250.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 300.0,
+      "line5CodeLetters": "AF",
+      "line6TotalAdditions": 550.0,
+      "line7TotalFederalAgiAndAdditions": 113050.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 1500.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 1500.0,
+      "line16MarylandAgi": 111550.0
+    },
+    "deduction": {
+      "deductionMethod": "ITEMIZED",
+      "line17DeductionAmount": 0.0,
+      "line17aTotalFederalItemizedDeductions": 19000.0,
+      "line17bStateLocalIncomeTaxes": 10000.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 0.0,
+      "line19ExemptionAmount": 0.0,
+      "line20TaxableNetIncome": 0.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 0.0,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 0.0
+    },
+    "localTax": {
+      "localTaxRate": 0.0,
+      "line28LocalTax": 0.0,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 0.0
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 0.0
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 50.0,
+      "line36DevelopmentalDisabilitiesContribution": 25.0,
+      "line37MarylandCancerFundContribution": 25.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 0.0
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 7800.0,
+      "line41EstimatedTaxPayments": 2200.0,
+      "line41AmountAppliedFrom2022": 300.0,
+      "line41PaymentWithExtension": 200.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 0.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "301-555-0164",
+      "homePhone": "301-555-0149",
+      "codeNumbers": ["04", "10"]
+    },
+    "preparer": {
+      "name": "Greenbelt Tax Co.",
+      "signature": "Morgan Dale",
+      "ptin": "P246810",
+      "firmName": "Greenbelt Tax Co.",
+      "address": "6100 Greenbelt Rd",
+      "cityStateZip": "Greenbelt, MD 20770",
+      "phone": "301-555-7702"
+    },
+    "signatures": {
+      "primarySignature": "Noah J Reed",
+      "primarySignatureDate": "2025-04-11",
+      "spouseSignature": "Quinn A Reed",
+      "spouseSignatureDate": "2025-04-11"
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": true,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "055003201",
+      "line51cAccountNumber": "123009876543",
+      "line51dNameOnAccount": "Noah J Reed & Quinn A Reed"
+    }
+  },
+  "validationErrors": []
+}

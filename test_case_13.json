@@ -1,0 +1,213 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-7770",
+      "primaryFirstName": "Avery",
+      "primaryMiddleInitial": "S",
+      "primaryLastName": "Kim",
+      "primaryDob": "1989-06-18",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "",
+      "spouseFirstName": "",
+      "spouseMiddleInitial": "",
+      "spouseLastName": "",
+      "spouseDob": "",
+      "spouseHealthCareCoverage": true,
+      "email": "avery.kim@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "1400 Bay Ridge Ave",
+      "mailingAddressLine2": "Unit 5D",
+      "mailingCity": "Annapolis",
+      "mailingState": "MD",
+      "mailingZipCode": "21403",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "1400 Bay Ridge Ave",
+      "marylandAddressLine2": "Unit 5D",
+      "marylandCity": "Annapolis",
+      "marylandZipCode": "21403",
+      "marylandCounty": "Anne Arundel County",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": false,
+      "residenceDateFrom": "",
+      "residenceDateTo": "",
+      "otherStateOfResidence": "",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "4",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 0,
+      "totalAExemptionsAmount": 0.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 0.0,
+      "totalExemptionsCount": 0,
+      "totalExemptionsAmount": 0.0
+    },
+    "income": {
+      "line1FederalAgi": 103500.0,
+      "line1aWagesSalariesTips": 94000.0,
+      "line1bEarnedIncome": 94000.0,
+      "line1cCapitalGainLoss": 4500.0,
+      "line1dTaxablePensions": 5000.0,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 150.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 250.0,
+      "line5CodeLetters": "AE",
+      "line6TotalAdditions": 400.0,
+      "line7TotalFederalAgiAndAdditions": 103900.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 800.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 800.0,
+      "line16MarylandAgi": 103100.0
+    },
+    "deduction": {
+      "deductionMethod": "STANDARD",
+      "line17DeductionAmount": 3650.0,
+      "line17aTotalFederalItemizedDeductions": 0.0,
+      "line17bStateLocalIncomeTaxes": 0.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 0.0,
+      "line19ExemptionAmount": 0.0,
+      "line20TaxableNetIncome": 0.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 0.0,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 0.0
+    },
+    "localTax": {
+      "localTaxRate": 0.0,
+      "line28LocalTax": 0.0,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 0.0
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 0.0
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 10.0,
+      "line36DevelopmentalDisabilitiesContribution": 10.0,
+      "line37MarylandCancerFundContribution": 10.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 0.0
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 7200.0,
+      "line41EstimatedTaxPayments": 1200.0,
+      "line41AmountAppliedFrom2022": 0.0,
+      "line41PaymentWithExtension": 0.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 0.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "410-555-0182",
+      "homePhone": "410-555-0129",
+      "codeNumbers": ["04", "09"]
+    },
+    "preparer": {
+      "name": "Severn Tax Partners LLC",
+      "signature": "Dana Ortiz",
+      "ptin": "P102938",
+      "firmName": "Severn Tax Partners LLC",
+      "address": "2100 Forest Dr",
+      "cityStateZip": "Annapolis, MD 21401",
+      "phone": "410-555-7701"
+    },
+    "signatures": {
+      "primarySignature": "Avery S Kim",
+      "primarySignatureDate": "2025-04-10",
+      "spouseSignature": "",
+      "spouseSignatureDate": ""
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": true,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "055003201",
+      "line51cAccountNumber": "009988776655",
+      "line51dNameOnAccount": "Avery S Kim"
+    }
+  },
+  "validationErrors": []
+}

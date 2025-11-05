@@ -1,0 +1,212 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2023,
+      "fiscalYearBeginning": "2023-01-01",
+      "fiscalYearEnding": "2023-12-31"
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-7777",
+      "primaryFirstName": "Morgan",
+      "primaryMiddleInitial": "A",
+      "primaryLastName": "Lee",
+      "primaryDob": "1958-03-05",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "",
+      "spouseFirstName": "",
+      "spouseMiddleInitial": "",
+      "spouseLastName": "",
+      "spouseDob": "",
+      "spouseHealthCareCoverage": true,
+      "email": "morgan.lee@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "7400 Dover Ct",
+      "mailingAddressLine2": "",
+      "mailingCity": "Ellicott City",
+      "mailingState": "MD",
+      "mailingZipCode": "21043",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "7400 Dover Ct",
+      "marylandAddressLine2": "",
+      "marylandCity": "Ellicott City",
+      "marylandZipCode": "21043",
+      "marylandCounty": "Howard County",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": false,
+      "residenceDateFrom": "",
+      "residenceDateTo": "",
+      "otherStateOfResidence": "",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "Head of Household",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 1,
+      "totalAExemptionsAmount": 3200.0,
+      "yourself65OrOver": true,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 1,
+      "totalBExemptionsAmount": 1000.0,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 6400.0,
+      "totalExemptionsCount": 4,
+      "totalExemptionsAmount": 10600.0
+    },
+    "income": {
+      "line1FederalAgi": 85000.0,
+      "line1aWagesSalariesTips": 70000.0,
+      "line1bEarnedIncome": 70000.0,
+      "line1cCapitalGainLoss": 10000.0,
+      "line1dTaxablePensions": 5000.0,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 200.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 200.0,
+      "line5CodeLetters": "AA",
+      "line6TotalAdditions": 0.0,
+      "line7TotalFederalAgiAndAdditions": 0.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 800.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 0.0,
+      "line16MarylandAgi": 0.0
+    },
+    "deduction": {
+      "deductionMethod": "ITEMIZED",
+      "line17DeductionAmount": 13000.0,
+      "line17aTotalFederalItemizedDeductions": 18000.0,
+      "line17bStateLocalIncomeTaxes": 5000.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 0.0,
+      "line19ExemptionAmount": 0.0,
+      "line20TaxableNetIncome": 0.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 0.0,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 150.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 0.0
+    },
+    "localTax": {
+      "localTaxRate": 0.032,
+      "line28LocalTax": 0.0,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 75.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 0.0
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 0.0
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 15.0,
+      "line36DevelopmentalDisabilitiesContribution": 0.0,
+      "line37MarylandCancerFundContribution": 10.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 0.0
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 4200.0,
+      "line41EstimatedTaxPayments": 200.0,
+      "line41AmountAppliedFrom2022": 0.0,
+      "line41PaymentWithExtension": 0.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 0.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": false,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "",
+      "line51bRoutingNumber": "",
+      "line51cAccountNumber": "",
+      "line51dNameOnAccount": ""
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": false,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": false,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "410-555-2233",
+      "homePhone": "410-555-8899",
+      "codeNumbers": ["07", "19"]
+    },
+    "preparer": {
+      "name": "Taylor CPA",
+      "signature": "Taylor",
+      "ptin": "P999999",
+      "firmName": "TC Advisors",
+      "address": "400 Main St",
+      "cityStateZip": "Ellicott City, MD 21043",
+      "phone": "410-555-1010"
+    },
+    "signatures": {
+      "primarySignature": "Morgan A Lee",
+      "primarySignatureDate": "2024-04-15",
+      "spouseSignature": "",
+      "spouseSignatureDate": ""
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": false,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    }
+  }
+}

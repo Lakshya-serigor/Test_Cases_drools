@@ -1,0 +1,213 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-9099",
+      "primaryFirstName": "Morgan",
+      "primaryMiddleInitial": "D",
+      "primaryLastName": "Patel",
+      "primaryDob": "1987-01-14",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "555-66-8088",
+      "spouseFirstName": "Samira",
+      "spouseMiddleInitial": "Q",
+      "spouseLastName": "Patel",
+      "spouseDob": "1988-10-02",
+      "spouseHealthCareCoverage": true,
+      "email": "morgan.patel@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "8800 Old Georgetown Rd",
+      "mailingAddressLine2": "Apt 5C",
+      "mailingCity": "Bethesda",
+      "mailingState": "MD",
+      "mailingZipCode": "20814",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "8800 Old Georgetown Rd",
+      "marylandAddressLine2": "Apt 5C",
+      "marylandCity": "Bethesda",
+      "marylandZipCode": "20814",
+      "marylandCounty": "Montgomery County",
+      "politicalSubdivision": "Bethesda",
+      "politicalSubdivisionCode": "1602"
+    },
+    "residency": {
+      "partYearResident": false,
+      "residenceDateFrom": "",
+      "residenceDateTo": "",
+      "otherStateOfResidence": "",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "2",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": true,
+      "totalAExemptionsCount": 2,
+      "totalAExemptionsAmount": 6400.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 2,
+      "totalCExemptionsAmount": 6400.0,
+      "totalExemptionsCount": 4,
+      "totalExemptionsAmount": 12800.0
+    },
+    "income": {
+      "line1FederalAgi": 138750.0,
+      "line1aWagesSalariesTips": 120000.0,
+      "line1bEarnedIncome": 120000.0,
+      "line1cCapitalGainLoss": 3500.0,
+      "line1dTaxablePensions": 12000.0,
+      "line1eInvestmentIncomeOver11000": true
+    },
+    "additions": {
+      "line2TaxExemptInterest": 400.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 250.0,
+      "line5CodeLetters": "AH",
+      "line6TotalAdditions": 650.0,
+      "line7TotalFederalAgiAndAdditions": 139400.0
+    },
+    "deduction": {
+      "deductionMethod": "ITEMIZED",
+      "line17DeductionAmount": 13500.0,
+      "line17aTotalFederalItemizedDeductions": 23500.0,
+      "line17bStateLocalIncomeTaxes": 10000.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 1800.0,
+      "line14TwoIncomeSubtraction": 900.0,
+      "line15TotalSubtractions": 2700.0,
+      "line16MarylandAgi": 136700.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 123200.0,
+      "line19ExemptionAmount": 12800.0,
+      "line20TaxableNetIncome": 110400.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 5191.5,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 5191.5
+    },
+    "localTax": {
+      "localTaxRate": 0.032,
+      "line28LocalTax": 3532.8,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 3532.8
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 8724.3
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 25.0,
+      "line36DevelopmentalDisabilitiesContribution": 15.0,
+      "line37MarylandCancerFundContribution": 0.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 8764.3
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 11000.0,
+      "line41EstimatedTaxPayments": 3200.0,
+      "line41AmountAppliedFrom2022": 400.0,
+      "line41PaymentWithExtension": 300.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 14200.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 5435.7,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 5435.7,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "301-555-0175",
+      "homePhone": "301-555-0195",
+      "codeNumbers": ["07", "12"]
+    },
+    "preparer": {
+      "name": "Bethesda Tax Partners LLC",
+      "signature": "Priya Shah",
+      "ptin": "P334455",
+      "firmName": "Bethesda Tax Partners LLC",
+      "address": "7500 Wisconsin Ave",
+      "cityStateZip": "Bethesda, MD 20814",
+      "phone": "301-555-7706"
+    },
+    "signatures": {
+      "primarySignature": "Morgan D Patel",
+      "primarySignatureDate": "2025-04-14",
+      "spouseSignature": "Samira Q Patel",
+      "spouseSignatureDate": "2025-04-14"
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": true,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "055003201",
+      "line51cAccountNumber": "445566778899",
+      "line51dNameOnAccount": "Morgan D Patel & Samira Q Patel"
+    }
+  },
+  "validationErrors": []
+}

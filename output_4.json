@@ -1,0 +1,218 @@
+{
+  "form": {
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 1,
+      "totalAExemptionsAmount": 3200.0,
+      "yourself65OrOver": true,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 1,
+      "totalBExemptionsAmount": 1000.0,
+      "dependentCount": 1,
+      "totalCExemptionsAmount": 3200.0,
+      "totalExemptionsCount": 3,
+      "totalExemptionsAmount": 7400.0
+    },
+    "filingStatus": {
+      "status": "5",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "income": {
+      "line1FederalAgi": 92000.0,
+      "line1aWagesSalariesTips": 78000.0,
+      "line1bEarnedIncome": 78000.0,
+      "line1cCapitalGainLoss": 7000.0,
+      "line1dTaxablePensions": 7000.0,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 150.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 300.0,
+      "line5CodeLetters": "AB",
+      "line6TotalAdditions": 450.0,
+      "line7TotalFederalAgiAndAdditions": 92450.0
+    },
+    "deduction": {
+      "deductionMethod": "STANDARD",
+      "line17DeductionAmount": 5450.0,
+      "line17aTotalFederalItemizedDeductions": 0.0,
+      "line17bStateLocalIncomeTaxes": 0.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 600.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 600.0,
+      "line16MarylandAgi": 91850.0
+    },
+    "formInfo": {
+      "taxYear": 2023,
+      "fiscalYearBeginning": "2023-02-01",
+      "fiscalYearEnding": "2024-01-31"
+    },
+    "taxpayerInformation": {
+      "primarySsn": "777-44-2211",
+      "primaryFirstName": "Jordan",
+      "primaryMiddleInitial": "T",
+      "primaryLastName": "Nguyen",
+      "primaryDob": "1960-09-12",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "",
+      "spouseFirstName": "",
+      "spouseMiddleInitial": "",
+      "spouseLastName": "",
+      "spouseDob": "",
+      "spouseHealthCareCoverage": true,
+      "email": "jordan.nguyen@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "901 Harbor View Dr",
+      "mailingAddressLine2": "Apt 7C",
+      "mailingCity": "Annapolis",
+      "mailingState": "MD",
+      "mailingZipCode": "21401",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "901 Harbor View Dr",
+      "marylandAddressLine2": "Apt 7C",
+      "marylandCity": "Annapolis",
+      "marylandZipCode": "21401",
+      "marylandCounty": "Anne Arundel County",
+      "politicalSubdivision": "",
+      "politicalSubdivisionCode": ""
+    },
+    "residency": {
+      "partYearResident": true,
+      "residenceDateFrom": "2023-02-01",
+      "residenceDateTo": "2023-12-31",
+      "otherStateOfResidence": "PA",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 86400.0,
+      "line19ExemptionAmount": 7400.0,
+      "line20TaxableNetIncome": 79000.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 3700.0,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 3700.0
+    },
+    "localTax": {
+      "localTaxRate": 0.027,
+      "line28LocalTax": 2137.4,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 2137.4
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 5837.4
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 0.0,
+      "line36DevelopmentalDisabilitiesContribution": 0.0,
+      "line37MarylandCancerFundContribution": 0.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 5837.4
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 5000.0,
+      "line41EstimatedTaxPayments": 400.0,
+      "line41AmountAppliedFrom2022": 100.0,
+      "line41PaymentWithExtension": 0.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 5400.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 437.4,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 437.4
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "443-555-0127",
+      "homePhone": "443-555-0198",
+      "codeNumbers": ["03", "21"]
+    },
+    "preparer": {
+      "name": "Casey Rowan, EA",
+      "signature": "Casey Rowan",
+      "ptin": "P123456",
+      "firmName": "Harbor Tax LLC",
+      "address": "120 Dock St",
+      "cityStateZip": "Annapolis, MD 21401",
+      "phone": "443-555-1212"
+    },
+    "signatures": {
+      "primarySignature": "Jordan T Nguyen",
+      "primarySignatureDate": "2024-04-12",
+      "spouseSignature": "",
+      "spouseSignatureDate": ""
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": false,
+      "form502CRAttached": true,
+      "form502SUAttached": false,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Savings",
+      "line51bRoutingNumber": "255073345",
+      "line51cAccountNumber": "889977665544",
+      "line51dNameOnAccount": "Jordan T Nguyen"
+    }
+  },
+  "validationErrors": [
+    {
+      "errorField": "line13SubtractionsFrom502SU",
+      "errorMessage": "Form 502SU must be attached when claiming subtractions on line 13"
+    }
+  ]
+}

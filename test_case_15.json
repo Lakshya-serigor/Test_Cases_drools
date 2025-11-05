@@ -1,0 +1,224 @@
+{
+  "form": {
+    "formInfo": {
+      "taxYear": 2024,
+      "fiscalYearBeginning": "",
+      "fiscalYearEnding": ""
+    },
+    "taxpayerInformation": {
+      "primarySsn": "555-66-8080",
+      "primaryFirstName": "Taylor",
+      "primaryMiddleInitial": "M",
+      "primaryLastName": "Shaw",
+      "primaryDob": "1990-11-05",
+      "primaryHealthCareCoverage": true,
+      "spouseSsn": "",
+      "spouseFirstName": "",
+      "spouseMiddleInitial": "",
+      "spouseLastName": "",
+      "spouseDob": "",
+      "spouseHealthCareCoverage": true,
+      "email": "taylor.shaw@example.com"
+    },
+    "addresses": {
+      "mailingAddressLine1": "210 E Madison St",
+      "mailingAddressLine2": "Unit 3F",
+      "mailingCity": "Baltimore",
+      "mailingState": "MD",
+      "mailingZipCode": "21202",
+      "foreignCountry": "",
+      "foreignProvinceStateCounty": "",
+      "foreignPostalCode": "",
+      "marylandAddressLine1": "210 E Madison St",
+      "marylandAddressLine2": "Unit 3F",
+      "marylandCity": "Baltimore",
+      "marylandZipCode": "21202",
+      "marylandCounty": "Baltimore City",
+      "politicalSubdivision": "Baltimore City",
+      "politicalSubdivisionCode": "0001"
+    },
+    "residency": {
+      "partYearResident": true,
+      "residenceDateFrom": "2024-05-15",
+      "residenceDateTo": "2024-12-31",
+      "otherStateOfResidence": "PA",
+      "militaryIncomeIndicator": false,
+      "militaryIncomeAmount": 0.0
+    },
+    "filingStatus": {
+      "status": "1",
+      "spouseSsnIfFilingSeparately": ""
+    },
+    "exemptions": {
+      "yourselfChecked": true,
+      "spouseChecked": false,
+      "totalAExemptionsCount": 1,
+      "totalAExemptionsAmount": 3200.0,
+      "yourself65OrOver": false,
+      "spouse65OrOver": false,
+      "yourselfBlind": false,
+      "spouseBlind": false,
+      "totalBExemptionsCount": 0,
+      "totalBExemptionsAmount": 0.0,
+      "dependentCount": 1,
+      "totalCExemptionsAmount": 3200.0,
+      "totalExemptionsCount": 2,
+      "totalExemptionsAmount": 6400.0,
+      "dependents": [
+        {
+          "firstName": "Maya",
+          "middleInitial": "R",
+          "lastName": "Shaw",
+          "ssn": "555-22-3333",
+          "dob": "2017-09-14",
+          "relationship": "Child",
+          "monthsLivedWithYou": 8
+        }
+      ]
+    },
+    "income": {
+      "line1FederalAgi": 76500.0,
+      "line1aWagesSalariesTips": 65000.0,
+      "line1bEarnedIncome": 65000.0,
+      "line1cCapitalGainLoss": 5000.0,
+      "line1dTaxablePensions": 6000.0,
+      "line1eInvestmentIncomeOver11000": false
+    },
+    "additions": {
+      "line2TaxExemptInterest": 150.0,
+      "line3StateRetirementPickup": 0.0,
+      "line4LumpSumDistributions": 0.0,
+      "line5OtherAdditions": 100.0,
+      "line5CodeLetters": "AD",
+      "line6TotalAdditions": 0.0,
+      "line7TotalFederalAgiAndAdditions": 0.0
+    },
+    "subtractions": {
+      "line8TaxableRefundsCreditsOffsets": 0.0,
+      "line9ChildDependentCareExpenses": 0.0,
+      "line10aPensionExclusionYourself": 0.0,
+      "line10aPensionExclusionSpouse": 0.0,
+      "line10aPensionExclusionTotal": 0.0,
+      "line10bRangerPensionYourself": 0.0,
+      "line10bRangerPensionSpouse": 0.0,
+      "line10bRangerPensionTotal": 0.0,
+      "line11TaxableSocialSecurityRrBenefits": 0.0,
+      "line12IncomeReceivedDuringNonresidence": 0.0,
+      "line13SubtractionsFrom502SU": 800.0,
+      "line14TwoIncomeSubtraction": 0.0,
+      "line15TotalSubtractions": 0.0,
+      "line16MarylandAgi": 0.0
+    },
+    "deduction": {
+      "deductionMethod": "STANDARD",
+      "line17DeductionAmount": 0.0,
+      "line17aTotalFederalItemizedDeductions": 0.0,
+      "line17bStateLocalIncomeTaxes": 0.0
+    },
+    "taxableIncome": {
+      "line18NetIncome": 0.0,
+      "line19ExemptionAmount": 0.0,
+      "line20TaxableNetIncome": 0.0
+    },
+    "marylandTax": {
+      "line21MarylandTax": 0.0,
+      "line21aRecapturedCredit": 0.0,
+      "line22EarnedIncomeCredit": 0.0,
+      "line22ClaimingMdEicWithoutFederal": false,
+      "line22ClaimingMdEicWithQualifyingChild": false,
+      "line23PovertyLevelCredit": 0.0,
+      "line24OtherIncomeTaxCredits": 0.0,
+      "line25BusinessTaxCredits": 0.0,
+      "line26TotalCredits": 0.0,
+      "line27MarylandTaxAfterCredits": 0.0
+    },
+    "localTax": {
+      "localTaxRate": 0.0,
+      "line28LocalTax": 0.0,
+      "line29LocalEarnedIncomeCredit": 0.0,
+      "line30LocalPovertyLevelCredit": 0.0,
+      "line31LocalTaxCredit": 0.0,
+      "line32TotalLocalCredits": 0.0,
+      "line33LocalTaxAfterCredits": 0.0
+    },
+    "totalTax": {
+      "line34TotalMarylandAndLocalTax": 0.0
+    },
+    "contributions": {
+      "line35ChesapeakeBayContribution": 25.0,
+      "line36DevelopmentalDisabilitiesContribution": 10.0,
+      "line37MarylandCancerFundContribution": 15.0,
+      "line38FairCampaignFinancingContribution": 0.0,
+      "line39TotalTaxAndContributions": 0.0
+    },
+    "payments": {
+      "line40MarylandLocalTaxWithheld": 5200.0,
+      "line41EstimatedTaxPayments": 1200.0,
+      "line41AmountAppliedFrom2022": 0.0,
+      "line41PaymentWithExtension": 0.0,
+      "line41FormMW506NRS": 0.0,
+      "line42RefundableEarnedIncomeCredit": 0.0,
+      "line43RefundableIncomeTaxCredits": 0.0,
+      "line44TotalPaymentsAndCredits": 0.0
+    },
+    "refundOrAmountDue": {
+      "line45BalanceDue": 0.0,
+      "line46Overpayment": 0.0,
+      "line47AppliedTo2024EstimatedTax": 0.0,
+      "line48RefundAmount": 0.0,
+      "line49InterestCharges": 0.0,
+      "line49LateFiling": 0.0,
+      "line49HomebuyerWithdrawalPenalty": 0.0,
+      "line49Total": 0.0,
+      "line50TotalAmountDue": 0.0
+    },
+    "authorization": {
+      "authorizePreparerDiscussion": true,
+      "authorizePreparerNotToFileElectronically": false,
+      "agreeToReceive1099GElectronically": true,
+      "authorizeHealthConnectionSharing": false
+    },
+    "contactInformation": {
+      "daytimePhone": "410-555-0158",
+      "homePhone": "410-555-0193",
+      "codeNumbers": ["05", "12"]
+    },
+    "preparer": {
+      "name": "Downtown Tax Group LLC",
+      "signature": "Harper Lane",
+      "ptin": "P908172",
+      "firmName": "Downtown Tax Group LLC",
+      "address": "100 N Charles St",
+      "cityStateZip": "Baltimore, MD 21201",
+      "phone": "410-555-7704"
+    },
+    "signatures": {
+      "primarySignature": "Taylor M Shaw",
+      "primarySignatureDate": "2025-04-13",
+      "spouseSignature": "",
+      "spouseSignatureDate": ""
+    },
+    "attachments": {
+      "w2FormsAttached": true,
+      "form502BAttached": true,
+      "form502CRAttached": false,
+      "form502SUAttached": true,
+      "form502RAttached": false,
+      "form502UPAttached": false,
+      "form500CRAttached": false,
+      "formMW506NRSAttached": false,
+      "form588Attached": false,
+      "formPVAttached": false,
+      "scheduleK1Attached": false
+    },
+    "directDeposit": {
+      "line51AuthorizeDirectDeposit": true,
+      "line51AccountOutsideUs": false,
+      "line51aAccountType": "Checking",
+      "line51bRoutingNumber": "052000113",
+      "line51cAccountNumber": "001122334455",
+      "line51dNameOnAccount": "Taylor M Shaw"
+    }
+  },
+  "validationErrors": []
+}
