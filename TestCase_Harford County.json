@@ -1,0 +1,217 @@
+{
+    "form": {
+        "formInfo": {
+            "taxYear": 2024,
+            "fiscalYearBeginning": "",
+            "fiscalYearEnding": ""
+        },
+        "taxpayerInformation": {
+            "primarySsn": "555-66-2323",
+            "primaryFirstName": "Riley",
+            "primaryMiddleInitial": "P",
+            "primaryLastName": "Torres",
+            "primaryDob": "1993-03-17",
+            "primaryHealthCareCoverage": true,
+            "spouseSsn": "",
+            "spouseFirstName": "",
+            "spouseMiddleInitial": "",
+            "spouseLastName": "",
+            "spouseDob": "",
+            "spouseHealthCareCoverage": true,
+            "email": "riley.torres@example.com"
+        },
+        "addresses": {
+            "mailingAddressLine1": "45 S Main St",
+            "mailingAddressLine2": "Apt 2B",
+            "mailingCity": "Bel Air",
+            "mailingState": "MD",
+            "mailingZipCode": "21014",
+            "foreignCountry": "",
+            "foreignProvinceStateCounty": "",
+            "foreignPostalCode": "",
+            "marylandAddressLine1": "45 S Main St",
+            "marylandAddressLine2": "Apt 2B",
+            "marylandCity": "Bel Air",
+            "marylandZipCode": "21014",
+            "marylandCounty": "Harford County",
+            "politicalSubdivision": "Bel Air",
+            "politicalSubdivisionCode": "1201"
+        },
+        "residency": {
+            "partYearResident": true,
+            "residenceDateFrom": "2024-07-01",
+            "residenceDateTo": "2024-12-31",
+            "otherStateOfResidence": "VA",
+            "militaryIncomeIndicator": false,
+            "militaryIncomeAmount": 0
+        },
+        "filingStatus": {
+            "status": "1",
+            "spouseSsnIfFilingSeparately": ""
+        },
+        "exemptions": {
+            "yourselfChecked": true,
+            "spouseChecked": false,
+            "totalAExemptionsCount": 1,
+            "totalAExemptionsAmount": 3200,
+            "yourself65OrOver": false,
+            "spouse65OrOver": false,
+            "yourselfBlind": false,
+            "spouseBlind": false,
+            "totalBExemptionsCount": 0,
+            "totalBExemptionsAmount": 0,
+            "dependentCount": 0,
+            "totalCExemptionsAmount": 0,
+            "totalExemptionsCount": 1,
+            "totalExemptionsAmount": 3200,
+            "dependents": []
+        },
+        "income": {
+            "line1FederalAgi": 90500,
+            "line1aWagesSalariesTips": 78000,
+            "line1bEarnedIncome": 78000,
+            "line1cCapitalGainLoss": 3500,
+            "line1dTaxablePensions": 9000,
+            "line1eInvestmentIncomeOver11000": false
+        },
+        "additions": {
+            "line2TaxExemptInterest": 200,
+            "line3StateRetirementPickup": 0,
+            "line4LumpSumDistributions": 0,
+            "line5OtherAdditions": 150,
+            "line5CodeLetters": "AC",
+            "line6TotalAdditions": 0,
+            "line7TotalFederalAgiAndAdditions": 0
+        },
+        "subtractions": {
+            "line8TaxableRefundsCreditsOffsets": 0,
+            "line9ChildDependentCareExpenses": 0,
+            "line10aPensionExclusionYourself": 0,
+            "line10aPensionExclusionSpouse": 0,
+            "line10aPensionExclusionTotal": 0,
+            "line10bRangerPensionYourself": 0,
+            "line10bRangerPensionSpouse": 0,
+            "line10bRangerPensionTotal": 0,
+            "line11TaxableSocialSecurityRrBenefits": 0,
+            "line12IncomeReceivedDuringNonresidence": 0,
+            "line13SubtractionsFrom502SU": 1000,
+            "line14TwoIncomeSubtraction": 0,
+            "line15TotalSubtractions": 0,
+            "line16MarylandAgi": 0
+        },
+        "deduction": {
+            "deductionMethod": "STANDARD",
+            "line17DeductionAmount": 0,
+            "line17aTotalFederalItemizedDeductions": 0,
+            "line17bStateLocalIncomeTaxes": 0
+        },
+        "taxableIncome": {
+            "line18NetIncome": 0,
+            "line19ExemptionAmount": 0,
+            "line20TaxableNetIncome": 0
+        },
+        "marylandTax": {
+            "line21MarylandTax": 0,
+            "line21aRecapturedCredit": 0,
+            "line22EarnedIncomeCredit": 0,
+            "line22ClaimingMdEicWithoutFederal": false,
+            "line22ClaimingMdEicWithQualifyingChild": false,
+            "line23PovertyLevelCredit": 0,
+            "line24OtherIncomeTaxCredits": 0,
+            "line25BusinessTaxCredits": 0,
+            "line26TotalCredits": 0,
+            "line27MarylandTaxAfterCredits": 0
+        },
+        "localTax": {
+            "localTaxRate": 0,
+            "line28LocalTax": 0,
+            "line29LocalEarnedIncomeCredit": 0,
+            "line30LocalPovertyLevelCredit": 0,
+            "line31LocalTaxCredit": 0,
+            "line32TotalLocalCredits": 0,
+            "line33LocalTaxAfterCredits": 0
+        },
+        "totalTax": {
+            "line34TotalMarylandAndLocalTax": 0
+        },
+        "contributions": {
+            "line35ChesapeakeBayContribution": 10,
+            "line36DevelopmentalDisabilitiesContribution": 5,
+            "line37MarylandCancerFundContribution": 0,
+            "line38FairCampaignFinancingContribution": 0,
+            "line39TotalTaxAndContributions": 0
+        },
+        "payments": {
+            "line40MarylandLocalTaxWithheld": 6200,
+            "line41EstimatedTaxPayments": 1000,
+            "line41AmountAppliedFrom2022": 0,
+            "line41PaymentWithExtension": 200,
+            "line41FormMW506NRS": 0,
+            "line42RefundableEarnedIncomeCredit": 0,
+            "line43RefundableIncomeTaxCredits": 0,
+            "line44TotalPaymentsAndCredits": 0
+        },
+        "refundOrAmountDue": {
+            "line45BalanceDue": 0,
+            "line46Overpayment": 0,
+            "line47AppliedTo2024EstimatedTax": 0,
+            "line48RefundAmount": 0,
+            "line49InterestCharges": 0,
+            "line49LateFiling": 0,
+            "line49HomebuyerWithdrawalPenalty": 0,
+            "line49Total": 0,
+            "line50TotalAmountDue": 0
+        },
+        "authorization": {
+            "authorizePreparerDiscussion": true,
+            "authorizePreparerNotToFileElectronically": false,
+            "agreeToReceive1099GElectronically": true,
+            "authorizeHealthConnectionSharing": false
+        },
+        "contactInformation": {
+            "daytimePhone": "443-555-0128",
+            "homePhone": "443-555-0192",
+            "codeNumbers": [
+                "02",
+                "11"
+            ]
+        },
+        "preparer": {
+            "name": "Bel Air Tax Group LLC",
+            "signature": "Taylor Quinn",
+            "ptin": "P778899",
+            "firmName": "Bel Air Tax Group LLC",
+            "address": "18 Office St",
+            "cityStateZip": "Bel Air, MD 21014",
+            "phone": "443-555-7708"
+        },
+        "signatures": {
+            "primarySignature": "Riley P Torres",
+            "primarySignatureDate": "2025-04-16",
+            "spouseSignature": "",
+            "spouseSignatureDate": ""
+        },
+        "attachments": {
+            "w2FormsAttached": true,
+            "form502BAttached": false,
+            "form502CRAttached": false,
+            "form502SUAttached": true,
+            "form502RAttached": false,
+            "form502UPAttached": false,
+            "form500CRAttached": false,
+            "formMW506NRSAttached": false,
+            "form588Attached": false,
+            "formPVAttached": false,
+            "scheduleK1Attached": false
+        },
+        "directDeposit": {
+            "line51AuthorizeDirectDeposit": true,
+            "line51AccountOutsideUs": false,
+            "line51aAccountType": "Checking",
+            "line51bRoutingNumber": "052000113",
+            "line51cAccountNumber": "004455667788",
+            "line51dNameOnAccount": "Riley P Torres"
+        }
+    },
+    "validationErrors": []
+}
